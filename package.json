@@ -1,0 +1,26 @@
+{
+  "name": "omegabuybot",
+  "version": "1.0.0",
+  "description": "Telegram buy notification bot for Monad blockchain",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["telegram", "bot", "monad", "blockchain", "buy-notifications"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "grammy": "^1.38.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
